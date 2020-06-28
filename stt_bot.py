@@ -25,7 +25,7 @@ def receive_audio(message):
 
 
 def convert_ogg_to_wav():
-    process = subprocess.run(["ffmpeg", "-i", "./env/1.ogg", "./env/1.wav"])
+    process = subprocess.run(["ffmpeg", "-i", "1.ogg", "1.wav"])
 
 
 def recognition():
