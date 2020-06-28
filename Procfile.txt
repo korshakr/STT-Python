@@ -1,1 +1,1 @@
-bot: python stt_bot.py
+web: python stt_bot.py
