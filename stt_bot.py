@@ -1,6 +1,5 @@
 import telebot
 import urllib.request
-import soundfile as sf
 import subprocess
 import speech_recognition as sr
 import os
