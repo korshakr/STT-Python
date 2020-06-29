@@ -4,7 +4,7 @@ import subprocess
 import speech_recognition as sr
 import os
 
-token = '1173706340:AAGQO052tcRWXPHEI_VwIlK69E3wDOhSUFA'
+token = '....'
 bot = telebot.TeleBot(token)
 filename = "1.wav"
 
