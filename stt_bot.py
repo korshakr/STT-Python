@@ -3,8 +3,12 @@ import urllib.request
 import subprocess
 import speech_recognition as sr
 import os
+import configparser as cfg
 
-token = '....'
+config = cfg.ConfigParser()
+config.read("config")
+
+token = config["TELEGRAM_BOT"]["Token"]
 bot = telebot.TeleBot(token)
 filename = "1.wav"
 
